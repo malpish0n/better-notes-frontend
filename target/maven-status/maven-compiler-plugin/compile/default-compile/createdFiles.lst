@@ -1,6 +1,0 @@
-dev/malpish0n/notes/model/Note.class
-dev/malpish0n/notes/repository/NoteRepository.class
-dev/malpish0n/notes/service/NoteService.class
-dev/malpish0n/notes/controller/NoteController.class
-dev/malpish0n/notes/exception/GlobalExceptionHandler.class
-dev/malpish0n/notes/NotesApplication.class
