@@ -1,0 +1,6 @@
+/Users/arekkasztelan/Desktop/Projects/notes-app/src/main/java/dev/malpish0n/notes/NotesApplication.java
+/Users/arekkasztelan/Desktop/Projects/notes-app/src/main/java/dev/malpish0n/notes/controller/NoteController.java
+/Users/arekkasztelan/Desktop/Projects/notes-app/src/main/java/dev/malpish0n/notes/exception/GlobalExceptionHandler.java
+/Users/arekkasztelan/Desktop/Projects/notes-app/src/main/java/dev/malpish0n/notes/model/Note.java
+/Users/arekkasztelan/Desktop/Projects/notes-app/src/main/java/dev/malpish0n/notes/repository/NoteRepository.java
+/Users/arekkasztelan/Desktop/Projects/notes-app/src/main/java/dev/malpish0n/notes/service/NoteService.java
