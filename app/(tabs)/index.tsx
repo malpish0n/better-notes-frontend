@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { View, Text, FlatList, StyleSheet } from 'react-native';
+import { FlatList, SafeAreaView, StyleSheet, Text } from 'react-native';
 import { getNotes } from '../../api/notes';
 
 export default function NotesScreen() {
@@ -12,20 +12,20 @@ export default function NotesScreen() {
   }, []);
 
   return (
-    <View style={styles.container}>
+    <SafeAreaView style={styles.container}>
       <Text style={styles.header}>📒 My Notes</Text>
 
       <FlatList
       data={notes}
       keyExtractor={(item, index) => item?.id?.toString?.() || index.toString()}
       renderItem={({ item }: { item: any }) => (
-      <View style={styles.note}>
+      <SafeAreaView style={styles.note}>
         <Text style={styles.title}>{item.title}</Text>
         <Text numberOfLines={2}>{item.content}</Text>
-      </View>
+      </SafeAreaView>
     )}
   />
-</View>
+</SafeAreaView>
   );
 }
 
